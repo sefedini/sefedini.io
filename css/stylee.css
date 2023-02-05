@@ -1,0 +1,106 @@
+
+       
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+}
+
+header.h1 {
+
+    font-size: 100 px;
+}
+
+.navbar {
+
+    overflow: hidden;
+
+    position:sticky;
+
+    top: 0;
+
+    padding: 10px;
+}
+.navbar a {
+
+    width: 50 px;
+
+    float:right;
+
+    display:block;
+
+    color: rgb(149, 188, 138);
+
+    text-align: center;
+
+    padding: 8px 10px;
+
+    text-decoration:dotted;
+
+    box-shadow: 1px 1px 1px 2px rgba(161, 237, 165, 0.5);
+
+    border-radius: 13px;
+
+    margin: 5px 3px 5px 3px;
+
+    background-color: #b7e5af;
+
+    color: rgb(11, 11, 11);
+
+    display: flex;
+}
+.navbar a:hover {
+
+    background-color: #a7a8a3;
+
+    color: rgb(230, 210, 210);
+}
+
+
+.right {
+
+    float: right;
+}
+
+.h1{
+    text-align: center;
+}
+
+.element.style {
+    font-family: EpicRide,serif;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 44px;
+    line-height: 1em;
+    text-transform: none;
+}
+h1 {
+    font-size: 40px;
+    line-height: 1.25em;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    margin: 20px 0;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: #000;
+}
+
+  /* Default styles */
+  body {
+    font-size: 16px;
+  }
+
+  /* Media query for screens smaller than 390px wide */
+  @media only screen and (max-width: 390px) {
+    
+  }
+    body {
+      font-size: 14px;
+    }
+  
+  

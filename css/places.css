@@ -1,0 +1,39 @@
+.element.style {
+    font-family: EpicRide,serif;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 44px;
+    line-height: 1em;
+    text-transform: none;
+}
+h1 {
+    font-size: 40px;
+    line-height: 1.25em;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    margin: 20px 0;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: #000;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+body {
+    font-family: Lora,serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.69em;
+    color: #565050;
+    background-color: #fff;
+    overflow-x: hidden!important;
+    -webkit-font-smoothing: antialiased;
+}

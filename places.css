@@ -1,0 +1,253 @@
+body {
+    font-size: 16px;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin: 0;
+
+}
+.element.style {
+    font-family: EpicRide,serif;
+    margin: 0;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 44px;
+    line-height: 1em;
+    text-transform: none;
+}
+
+a.home-link {
+    display: inline-block;
+    padding: 5px 15px;
+    background-color: rgb(149, 188, 138);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  a.home-link:hover {
+    background-color:rgb(149, 205, 166)
+  }
+
+
+.places {
+
+    margin-left: 0px;
+
+    margin-right: 0px;
+
+    display: grid;
+
+    grid-template-columns: repeat(1, 3fr);
+
+    grid-gap: 30px;
+
+    margin-bottom: 0px;
+
+}
+.places img {
+
+    width: 400px;
+    height: 300px;
+   
+
+    margin-bottom: 0px;
+
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.25em;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+    margin: 20px 0;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+    font-family: Montserrat,sans-serif;
+    color: #000;
+}
+
+body {
+    font-family: Lora,serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.69em;
+    color: #565050;
+    background-color: #fff;
+    overflow-x: hidden!important;
+    -webkit-font-smoothing: antialiased;
+}
+
+
+@media only screen and (max-width: 390px) {
+   h1 {
+        font-size: 20px;
+        line-height: 1.25em;
+        font-weight: 400;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #000;
+        margin: 20px 0;
+        letter-spacing: .2em;
+        text-transform: uppercase;
+        font-family: Montserrat,sans-serif;
+        color: #000;
+    }
+    
+    body {
+        font-family: Lora,serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 1.69em;
+        color: #565050;
+        background-color: #fff;
+        overflow-x: hidden!important;
+        -webkit-font-smoothing: antialiased;
+    }
+    .places {
+
+        margin-left: 0px;
+    
+        margin-right: 0px;
+    
+        display: grid;
+    
+        grid-template-columns: repeat(1, 1fr);
+    
+        grid-gap: 10px;
+    
+        margin-bottom: 5px;
+    
+    }
+    .places img {
+    
+        width: 390px;
+        height: 300px;
+       
+    
+        margin-bottom: 5px;
+    
+    }
+}
+@media only screen and (max-width: 414px) {
+    .places img {
+    
+        width: 414px;
+        height: 300px;
+       
+    
+        margin-bottom: 5px;
+    
+    }
+    .places {
+
+        margin-left: 0px;
+    
+        margin-right: 0px;
+    
+        display: grid;
+    
+        grid-template-columns: repeat(1, 1fr);
+    
+        grid-gap: 10px;
+    
+        margin-bottom: 5px;
+    
+    }
+    body {
+        font-family: Lora,serif;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 1.69em;
+        color: #565050;
+        background-color: #fff;
+        overflow-x: hidden!important;
+        -webkit-font-smoothing: antialiased;
+    }
+    h1 {
+        font-size: 15px;
+        line-height: 1.25em;
+        font-weight: 400;
+    }
+}
+@media only screen and (max-width: 360px) {
+    .places img {
+    
+        width: 360px;
+        height: 300px;
+       
+    
+        margin-bottom: 5px;
+    
+    }
+    .places {
+
+        margin-left: 0px;
+    
+        margin-right: 0px;
+    
+        display: grid;
+    
+        grid-template-columns: repeat(1, 1fr);
+    
+        grid-gap: 10px;
+    
+        margin-bottom: 5px;
+    
+    }
+}
+@media only screen and (max-width: 280px) {
+    .places img {
+    
+        width: 280px;
+        height: 200px;
+       
+    
+        margin-bottom: 5px;
+    
+    }
+    .places {
+
+        margin-left: 0px;
+    
+        margin-right: 0px;
+    
+        display: grid;
+    
+        grid-template-columns: repeat(1, 1fr);
+    
+        grid-gap: 10px;
+    
+        margin-bottom: 5px;
+    
+    }
+}
+@media only screen and (max-width: 412px) {
+    .places img {
+    
+        width: 412px;
+        height: 200px;
+       
+    
+        margin-bottom: 5px;
+    
+    }
+    .places {
+
+        margin-left: 0px;
+    
+        margin-right: 0px;
+    
+        display: grid;
+    
+        grid-template-columns: repeat(1, 1fr);
+    
+        grid-gap: 10px;
+    
+        margin-bottom: 5px;
+    
+    }
+}
